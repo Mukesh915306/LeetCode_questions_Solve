@@ -1,10 +1,11 @@
-- 👋 Hi, I’m @Mukesh915306
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+public class MyFirstProgram{
+    public static void main(String[] args) {
+        System.out.println("Enter the number");
+        int a = 6;
+        int b = 8;
+        int c = a+b;
+        System.out.println("Sum: " +c);
+    }
+}
+  
 
-<!---
-Mukesh915306/Mukesh915306 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
