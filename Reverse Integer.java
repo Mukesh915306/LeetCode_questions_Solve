@@ -1,3 +1,4 @@
+//Binary search method
 class Solution {
     public int reverse(int x) {
         int r = 0;
@@ -17,5 +18,20 @@ class Solution {
         }
 
         return r;
+    }
+}
+
+//Brutforce Method
+
+class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        for(int i = 0; i < matrix.length; i++){
+            for(int j = 0; j < matrix[0].length; j++){
+                if(matrix[i][j] == target){
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
